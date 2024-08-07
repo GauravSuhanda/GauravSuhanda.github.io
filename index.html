@@ -14,12 +14,18 @@
     <link rel="stylesheet" href="css/unicons.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <!-- FAVICON -->
     <link rel="icon" href="images/project/Gaurs.svg" type="image/x-icon" />
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- <script type="text/javascript">
+      (function() {
+        emailjs.init('WylPwE3s-WVJngTtY');  // Use your Public Key here
+      })();
+    </script> -->
   </head>
 
   <body>
@@ -348,7 +354,7 @@
               <div class="item">
                 <div class="designs-info">
                   <img
-                    src="images/designs/design-image01.jpg"
+                    src="images/designs/design-image01.png"
                     class="img-fluid"
                     alt="designs image"
                   />
@@ -358,7 +364,7 @@
               <div class="item">
                 <div class="designs-info">
                   <img
-                    src="images/designs/design-image02.jpg"
+                    src="images/designs/design-image02.png"
                     class="img-fluid"
                     alt="designs image"
                   />
@@ -368,7 +374,7 @@
               <div class="item">
                 <div class="designs-info">
                   <img
-                    src="images/designs/design-image03.jpg"
+                    src="images/designs/design-image03.png"
                     class="img-fluid"
                     alt="designs image"
                   />
@@ -481,6 +487,7 @@
               <form action="" method="get">
                 <div class="row">
                   <div class="col-lg-6 col-12">
+                    <label for="name"></label>
                     <input
                       type="text"
                       class="form-control"
@@ -491,6 +498,7 @@
                   </div>
 
                   <div class="col-lg-6 col-12">
+                    <label for="email"></label>
                     <input
                       type="email"
                       class="form-control"
@@ -501,11 +509,12 @@
                   </div>
 
                   <div class="col-12">
+                    <label for="message"></label>
                     <textarea
                       name="message"
                       rows="6"
                       class="form-control"
-                      id="message"
+                      id="message"  
                       placeholder="Message"
                     ></textarea>
                   </div>
