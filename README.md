@@ -35,9 +35,6 @@ Welcome to my first portfolio website! This site is a showcase of my work, skill
 
 If you have any questions or would like to collaborate, don't hesitate to reach out. You can contact me through the website or find me on [LinkedIn](#).
 
----
-
-Thank you for visiting! I hope you enjoy exploring my work as much as I enjoyed creating it.
 
 ---
 
