@@ -1,7 +1,3 @@
-Certainly! Here's a beautified version of your README file:
-
----
-
 # My First Portfolio Website
 
 Welcome to my first portfolio website! This site is a showcase of my work, skills, and experiences. You can explore my projects, learn more about my professional background, and connect with me. Feel free to visit the live site at the link below.
